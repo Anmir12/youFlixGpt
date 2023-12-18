@@ -12,12 +12,12 @@ export const API_OPTIONS= {
   method: 'GET',
   headers: {
     accept: 'application/json',
-    Authorization: 'Bearer' + process.env.REACT_APP_TMDB_KEY,
+    Authorization: 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI3OTVlZDZiYTc5NTRlZDQ5MDAzNmNkY2Q0NWM1NzY1MyIsInN1YiI6IjY1NWY4YjUyYTZjMTA0MDBmZWFmNjllMCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.hIaf7URkbMMfLRj4VVexSvIKMrvALk862fcZ8OXQfAM ',
   }
 };
 
 export const IMAGE_URL ="https://image.tmdb.org/t/p/w500/";
 
 
-export const OPENAI_KEY = process.env.REACT_APP_OPENAI_KEY;
+export const OPENAI_KEY ="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";
 

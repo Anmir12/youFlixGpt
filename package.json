@@ -14,7 +14,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.1.3",
-    "react-router-dom": "^6.18.0",
+    "react-router-dom": "^6.21.0",
     "react-scripts": "5.0.1",
     "tailwind-scrollbar-hide": "^1.1.7",
     "web-vitals": "^2.1.4"
@@ -31,6 +31,13 @@
       "react-app/jest"
     ]
   },
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  },
+  "description": "-create react app\r -configured CRA with tailwind-css\r -Routing using React Router\r -Header\r -signup/sign in Page (single page differs upon condition)\r -form validations\r -useRef Hook\r -firebase setup\r -firebase hosting\r -firebase deployment(pending)\r -create sign up user api\r -implement sign in user api\r -created redux store with slice\r -implemented signout\r -update profile\r -BugFix : signup user displayName and profile picture update\r -BugFix : if the user is not logged in redirect /browse to login page and vice-versa\r -unsubscribed to onAuth State change Callback\r -adding strings and files in constant.js\r -creating user in TMDB site and registering an app\r -getting api key and acess token from it\r -in api references getting nowplaying movies api and adding it to constant file\r -creating an api to get get results to display on console and using useEffect hook\r -and creating movieSlice To add The api results get above to the the appstore\r -creating a custom hook named useNowPlaying To move all The code From Browse Component to make it clean\r -made main container added tittle component buttons and a background video from playtrailer api hook and also youtube embedd video from its api\r -made secondary container and added differnt cateogries of videos using tmdb apis like now playing trending,upcoming etc..,",
+  "main": "tailwind.config.js",
+  "author": "",
+  "license": "ISC",
   "browserslist": {
     "production": [
       ">0.2%",
@@ -38,12 +45,9 @@
       "not op_mini all"
     ],
     "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
+      "last 10 chrome version",
+      "last 10 firefox version",
+      "last 10 safari version"
     ]
-  },
-  "devDependencies": {
-    "tailwindcss": "^3.3.5"
   }
 }
