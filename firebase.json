@@ -1,6 +1,5 @@
 {
   "hosting": {
-    "site": "youflixgpt3",
     "public": "build",
     "ignore": [
       "firebase.json",
